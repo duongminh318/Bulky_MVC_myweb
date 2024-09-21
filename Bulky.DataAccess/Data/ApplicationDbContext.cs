@@ -20,7 +20,7 @@ namespace Bulky.DataAccess.Data
                 );
 
             // product
-            modelBuilder.Entity<Category>().HasData(
+            modelBuilder.Entity<Product>().HasData(
                 new Product
                 {
                     Id = 1,
