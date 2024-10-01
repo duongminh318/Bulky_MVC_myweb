@@ -8,7 +8,7 @@
 
 - source
 - lesson 53: Toastr Notification : https://codeseven.github.io/toastr/
-- 
+- lesson 95: Rich Text Editor : https://www.tiny.cloud/
 # proseeging
 - đang tới 
 # note
