@@ -10,7 +10,8 @@
 - lesson 53: Toastr Notification : https://codeseven.github.io/toastr/
 - lesson 95: Rich Text Editor : https://www.tiny.cloud/
 - lesson 101: Datatables API: https://datatables.net/ (sử dụng api để lấy ra sản phẩm)
-- 
+- lesson 102: load Datatables : https://datatables.net/manual/ajax - hướng dẫn chuyền data
+	-	https://jsonformatter.org/  - định dạng lại  json trả về cho dễ nhìn
 # proseeging
 - đang tới 
 # note
