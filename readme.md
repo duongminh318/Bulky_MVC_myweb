@@ -9,6 +9,8 @@
 - source
 - lesson 53: Toastr Notification : https://codeseven.github.io/toastr/
 - lesson 95: Rich Text Editor : https://www.tiny.cloud/
+- lesson 101: Datatables API: https://datatables.net/ (sử dụng api để lấy ra sản phẩm)
+- 
 # proseeging
 - đang tới 
 # note
