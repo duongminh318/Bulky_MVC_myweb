@@ -12,6 +12,7 @@
 - lesson 101: Datatables API: https://datatables.net/ (sử dụng api để lấy ra sản phẩm)
 - lesson 102: load Datatables : https://datatables.net/manual/ajax - hướng dẫn chuyền data
 	-	https://jsonformatter.org/  - định dạng lại  json trả về cho dễ nhìn
+- lesson 106: SweetAlerts : https://sweetalert2.github.io/, (cảnh báo xác nhận 1 tác vụ nào đó)
 # proseeging
 - đang tới 
 # note
