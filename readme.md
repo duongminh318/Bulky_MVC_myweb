@@ -13,6 +13,12 @@
 - lesson 102: load Datatables : https://datatables.net/manual/ajax - hướng dẫn chuyền data
 	-	https://jsonformatter.org/  - định dạng lại  json trả về cho dễ nhìn
 - lesson 106: SweetAlerts : https://sweetalert2.github.io/, (cảnh báo xác nhận 1 tác vụ nào đó)
+- 124: Why do we have a Company Role?
+	- Customer: khách hàng, đăng ký và mua hàng
+	- Company: công ty, được uỷ quyền để mua hàng, nên có 30 ngày để thanh toán
+	- Admin: quản trị web, toàn quyền
+	- Employee: xử lý các đơn hàng của khách
+	- https://www.udemy.com/course/complete-aspnet-core-21-course/learn/lecture/37136340#notes
 # proseeging
 - đang tới 
 # note
