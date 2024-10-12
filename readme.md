@@ -150,3 +150,15 @@ Unit of Work kết hợp các repository khác nhau và đảm bảo rằng tấ
 - cả các thay đổi trong phiên làm việc sẽ được thực hiện trong một 
 - giao dịch (transaction). Nếu có lỗi xảy ra, Unit of Work sẽ rollback 
 - tất cả các thay đổi để bảo toàn tính nhất quán của dữ liệu.
+
+# Note ngẫu nhiên
+- SD
+Class SD trong đoạn mã trên là một lớp tĩnh chứa các hằng số liên quan đến vai trò người dùng 
+và trạng thái đơn hàng trong ứng dụng.
+
+Mục đích:
+Vai trò người dùng: Xác định các vai trò như Customer, Company, Admin, và Employee.
+Trạng thái đơn hàng: Định nghĩa các trạng thái khác nhau của đơn hàng, 
+như Pending, Approved, Processing, Shipped, Cancelled, và Refunded.
+Trạng thái thanh toán: Định nghĩa các trạng thái liên quan đến thanh toán,
+bao gồm Pending, Approved, ApprovedForDelayedPayment, và Rejected.
