@@ -21,7 +21,9 @@
 	- https://www.udemy.com/course/complete-aspnet-core-21-course/learn/lecture/37136340#notes
 - 152. Register for Stripe Account - tích hợp thanh toán Stripe 
 	1. https://stripe.com/ - registes account
-	1. https://dashboard.stripe.com/test/apikeys
+	2. https://dashboard.stripe.com/test/apikeys
+- 155. Stripe in Action
+	1. https://docs.stripe.com/api/checkout/sessions/object?lang=dotnet - tài liệu hướng dẫn gọi api checkout stripe
 # proseeging
 - đang tới 
 # note
