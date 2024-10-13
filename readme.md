@@ -24,6 +24,12 @@
 	2. https://dashboard.stripe.com/test/apikeys
 - 155. Stripe in Action
 	1. https://docs.stripe.com/api/checkout/sessions/object?lang=dotnet - tài liệu hướng dẫn gọi api checkout stripe
+- 157. Order Placed Successfully with Stripe, 
+	1. sử dụng thẻ fake để check thanh toán (demo), 
+		 - https://viblo.asia/p/ma-the-credit-card-dung-de-test-thanh-toan-tai-nhat-YWOZreMwKQ0
+	2. sau đó vào database xem status paymentstatus
+	3. vào trang nhận tiền xem có nhận dc tiền chưa
+		 - https://dashboard.stripe.com/test/payments?created[gte]=1728234000&created[lte]=1728838799
 # proseeging
 - đang tới 
 # note
