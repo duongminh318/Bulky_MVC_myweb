@@ -19,6 +19,9 @@
 	- Admin: quản trị web, toàn quyền
 	- Employee: xử lý các đơn hàng của khách
 	- https://www.udemy.com/course/complete-aspnet-core-21-course/learn/lecture/37136340#notes
+- 152. Register for Stripe Account - tích hợp thanh toán Stripe 
+	1. https://stripe.com/ - registes account
+	1. https://dashboard.stripe.com/test/apikeys
 # proseeging
 - đang tới 
 # note
