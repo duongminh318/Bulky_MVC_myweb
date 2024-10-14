@@ -260,7 +260,7 @@
                                Model.OrderHeader.OrderStatus != SD.StatusCancelled &&
                                Model.OrderHeader.OrderStatus != SD.StatusShipped)
                                 {
-                                    <button type="submit" class="btn btn-danger form-control my-1">Cancel Order</button>
+                                    <button asp-action="CancelOrder" type="submit" class="btn btn-danger form-control my-1">Cancel Order</button>
                                 }
                             }
                         </div>
@@ -276,8 +276,8 @@
 
     <partial name="_ValidationScriptsPartial" />
     <script>
-        function validateInput(){
-            if(document.getElementById("trackingNumber").value==""){
+        function validateInput() {
+            if (document.getElementById("trackingNumber").value == "") {
                 Swal.fire({
                     icon: 'error',
                     title: 'Oops...',
@@ -285,7 +285,7 @@
                 });
                 return false;
             }
-            if (document.getElementById("carrier").value =="") {
+            if (document.getElementById("carrier").value == "") {
                 Swal.fire({
                     icon: 'error',
                     title: 'Oops...',
