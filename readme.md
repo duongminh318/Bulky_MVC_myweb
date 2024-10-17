@@ -30,6 +30,8 @@
 	2. sau đó vào database xem status paymentstatus
 	3. vào trang nhận tiền xem có nhận dc tiền chưa
 		 - https://dashboard.stripe.com/test/payments?created[gte]=1728234000&created[lte]=1728838799
+- 178. Facebook Social Login - cấu hình login facebook
+	1. https://developers.facebook.com/apps/1558381391471110/settings/basic/
 # proseeging
 - đang tới 
 # note
