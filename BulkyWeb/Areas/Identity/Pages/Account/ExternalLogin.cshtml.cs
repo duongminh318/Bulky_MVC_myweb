@@ -22,7 +22,7 @@ using Bulky.Utility;
 using Bulky.Models;
 using Bulky.Utility;
 
-namespace BulkyBookWeb.Areas.Identity.Pages.Account
+namespace BulkyWeb.Areas.Identity.Pages.Account
 {
     [AllowAnonymous]
     public class ExternalLoginModel : PageModel
