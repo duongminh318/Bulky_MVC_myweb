@@ -1,5 +1,6 @@
 ﻿@using Microsoft.AspNetCore.Http
 @inject IHttpContextAccessor HttpContextAccessor
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -45,33 +46,22 @@
                                     <li class="nav-item">
                                         <a class="dropdown-item" asp-area="Admin" asp-controller="Product" asp-action="Index">Product</a>
                                     </li>
-                                    <li><hr class="dropdown-divider"></li>
-
                                     <li class="nav-item">
                                         <a class="dropdown-item" asp-area="Admin" asp-controller="Company" asp-action="Index">Company</a>
                                     </li>
+                                    <li><hr class="dropdown-divider"></li>
 
                                 </ul>
                             </li>
                         }
-                        @if (HttpContextAccessor.HttpContext.Session.GetInt32(SD.SessionCart) != null)
-                        {
-                                <li class="nav-item">
-                                    <a class="nav-link" asp-area="Customer" asp-controller="Cart" asp-action="Index">
-                                        <i class="bi bi-cart"></i> &nbsp;
-                                        (@HttpContextAccessor.HttpContext.Session.GetInt32(SD.SessionCart))
-                                    </a>
-                                </li>
-                        }
-                        else
-                        {
-                                <li class="nav-item">
-                                    <a class="nav-link" asp-area="Customer" asp-controller="Cart" asp-action="Index">
-                                        <i class="bi bi-cart"></i> &nbsp;
-                                        (0)
-                                    </a>
-                                </li>
-                        }
+
+
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="Customer" asp-controller="Cart" asp-action="Index">
+                                @await Component.InvokeAsync("ShoppingCart")
+                            </a>
+                        </li>
+
                     </ul>
                     <partial name="_LoginPartial" />
                 </div>
