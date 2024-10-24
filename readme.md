@@ -32,6 +32,8 @@
 		 - https://dashboard.stripe.com/test/payments?created[gte]=1728234000&created[lte]=1728838799
 - 178. Facebook Social Login - cấu hình login facebook
 	1. https://developers.facebook.com/apps/1558381391471110/settings/basic/
+- 185. SendGrid Email Setup (cài đặt mail xác nhận )- phải có domain email mới làm được
+- 186. SendGrid in Action (triển khai những gì đã làm được ờ 185 mail xác nhận)
 # proseeging
 - đang tới 
 # note
