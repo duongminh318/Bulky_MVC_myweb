@@ -34,6 +34,8 @@
 	1. https://developers.facebook.com/apps/1558381391471110/settings/basic/
 - 185. SendGrid Email Setup (cài đặt mail xác nhận )- phải có domain email mới làm được
 - 186. SendGrid in Action (triển khai những gì đã làm được ờ 185 mail xác nhận)
+- 187. Create Azure SQL Server and Database ,(đưa database lên Azure cloud)
+	1. https://portal.azure.com/
 # proseeging
 - đang tới 
 # note
