@@ -36,6 +36,9 @@
 - 186. SendGrid in Action (triển khai những gì đã làm được ờ 185 mail xác nhận)
 - 187. Create Azure SQL Server and Database ,(đưa database lên Azure cloud)
 	1. https://portal.azure.com/
+- 191. Facebook URL
+	1. add link https://bulkmvc-dotnetmastery-fqgsd7frgge9cufy.canadacentral-01.azurewebsites.net/signin-facebook 
+		vào trang dev facebook, chưa chuyển được từ trạng thái dev sang live
 # proseeging
 - đang tới 
 # note
