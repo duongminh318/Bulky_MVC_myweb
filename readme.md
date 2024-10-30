@@ -39,6 +39,10 @@
 - 191. Facebook URL
 	1. add link https://bulkmvc-dotnetmastery-fqgsd7frgge9cufy.canadacentral-01.azurewebsites.net/signin-facebook 
 		vào trang dev facebook, chưa chuyển được từ trạng thái dev sang live
+- 192. Facebook Url Error
+	1. url của trang web tích hợp cần phải có chính sách bảo mật, mới tích hợp dc login facebook
+	2. vẫn hoạt động được ở localhost
+	3. link giải thích : https://www.udemy.com/course/complete-aspnet-core-21-course/learn/lecture/37154548#content
 # proseeging
 - đang tới 
 # note
