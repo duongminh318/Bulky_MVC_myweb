@@ -75,7 +75,7 @@ namespace BulkyBookWeb.Areas.Admin.Controllers
             }
             _db.SaveChanges();
 
-            return Json(new { success = true, message = "Delete Successful" });
+            return Json(new { success = true, message = "Operation Successful" });
         }
 
         #endregion
