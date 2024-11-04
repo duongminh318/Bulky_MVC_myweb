@@ -57,7 +57,7 @@
 # flow
 - tạo model với các file tương ứng
 - add các nuget package
-
+- push demo
 
 # Cấu trúc thư mục ASP .NET CORE
 - Data
