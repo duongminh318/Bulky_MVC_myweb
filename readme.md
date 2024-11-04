@@ -187,3 +187,23 @@ Trạng thái đơn hàng: Định nghĩa các trạng thái khác nhau của đ
 như Pending, Approved, Processing, Shipped, Cancelled, và Refunded.
 Trạng thái thanh toán: Định nghĩa các trạng thái liên quan đến thanh toán,
 bao gồm Pending, Approved, ApprovedForDelayedPayment, và Rejected.
+
+- Login with Microsoft Account
+
+>>
+
+  <PackageReference Include="Microsoft.AspNetCore.Authentication.MicrosoftAccount" Version="8.0.8" />
+
+
+
+-- thêm ở program.cs
+
+>>
+
+		builder.Services.AddAuthentication().AddMicrosoftAccount(option => {
+
+		option.ClientId = "";
+
+		option.ClientSecret = "";
+
+		});
